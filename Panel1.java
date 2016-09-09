@@ -13,11 +13,14 @@ public class Panel1 {
     JPanel panel = new JPanel();
     panel.setBackground(Color.darkGray);
 
-    JButton button = new JButton("Shock me.");
+    JButton button = new JButton("Shock me. I am the first button.");
     panel.add(button);
 
     JButton button2 = new JButton("Hi.");
     panel.add(button2);
+
+    JButton button3 = new JButton("Ho.");
+    panel.add(button3);
 
     frame.getContentPane().add(BorderLayout.EAST, panel);
     frame.setSize(250,200);
