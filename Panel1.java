@@ -12,8 +12,9 @@ public class Panel1 {
     JFrame frame = new JFrame();
     JPanel panel = new JPanel();
     panel.setBackground(Color.darkGray);
+    panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
-    JButton button = new JButton("Shock me. I am the first button.");
+    JButton button = new JButton("First!");
     panel.add(button);
 
     JButton button2 = new JButton("Hi.");
