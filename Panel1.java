@@ -16,6 +16,9 @@ public class Panel1 {
     JButton button = new JButton("Shock me.");
     panel.add(button);
 
+    JButton button2 = new JButton("Hi.");
+    panel.add(button2);
+
     frame.getContentPane().add(BorderLayout.EAST, panel);
     frame.setSize(250,200);
     frame.setVisible(true);
